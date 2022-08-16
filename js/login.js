@@ -5,6 +5,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
   const password = document.getElementById('password').value;
 
   if (email === 'user@email.com' && password === 'user') {
+    window.location.href = 'bank.html';
     console.log('Valid User');
   } else {
     alert('Invalid User');
